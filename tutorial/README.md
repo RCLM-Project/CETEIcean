@@ -111,7 +111,7 @@ tei-list[type=simple]>tei-item {
   display: list-item;
 }
 ```
-The first selector will match `<tei-list type="simple">` elements and specifies that list items should not be decorated with bullets or numbers. The second identifies `<tei-list>` elements as list items (like `<li>` in HTML). If you make this change and reload your preview, you will see that the table of contents is now formatted as a list. You can experiment with adding margins and other styles to make it look better. The `<hi rend="italics">` elements can be dealt with easily too:
+The first selector will match `<tei-list type="simple">` elements and specifies that list items should not be decorated with bullets or numbers. The second identifies `<tei-item>` elements as list items (like `<li>` in HTML). If you make this change and reload your preview, you will see that the table of contents is now formatted as a list. You can experiment with adding margins and other styles to make it look better. The `<hi rend="italics">` elements can be dealt with easily too:
 ```css
 tei-hi[rend=italics] {
   font-style: italic;
