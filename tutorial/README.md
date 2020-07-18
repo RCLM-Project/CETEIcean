@@ -124,7 +124,7 @@ tei-lb:before {
   content: "\A";
 }
 ```
-This tells the browser to insert a new-line character (the "\A") before each `<tei-lb>` and to treat it as preformatted text (as you would a block of code, for example). We have to do this because in HTML new lines are normally ignored for formatting purposes. There's more we can do with CSS, but this is a good point to look at where you might use CETEIcean behaviors for formatting instead. HTML has an element equivalent to `<lb/>`, the `<br>` element. What if we just put a `<br>` inside our `<tei-lb>`? We can do that by adding some behaviors. In your index.html, add the following after between the first and second lines of the code in the `<script></script>` tags:
+This tells the browser to insert a new-line character (the "\A") before each `<tei-lb>` and to treat it as preformatted text (as you would a block of code, for example). We have to do this because in HTML new lines are normally ignored for formatting purposes. There's more we can do with CSS, but this is a good point to look at where you might use CETEIcean behaviors for formatting instead. HTML has an element equivalent to `<lb/>`, the `<br>` element. What if we just put a `<br>` inside our `<tei-lb>`? We can do that by adding some behaviors. In your index.html, add the following between the first and second lines of the code in the `<script></script>` tags:
 ```js
   let behaviors = {
     "tei": {
